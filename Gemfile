@@ -6,4 +6,4 @@ gem 'page-object'
 gem 'pry'
 gem 'rspec'
 gem 'faker'
-
+gem 'rake'

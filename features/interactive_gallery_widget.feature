@@ -13,7 +13,8 @@ Scenario: Create Interactive Gallery widget
     And I publish new widget with "any" name visible in the Gallery
     Then I should see widget name on the Campaign Dashboard page
 
-Scenario: Create Uploader widget
+@test
+Scenario: Create Uploader widget 
     When I click Create new widget button
     And I select Upload widget
     And I publish it with "any" widget name
